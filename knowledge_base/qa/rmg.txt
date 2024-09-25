@@ -1,0 +1,8 @@
+Q: What is maximum best map bro?
+A: Random map template: Coldshadow's Fantasy. Settings: G + Underground.
+
+Q: Why is half of the random map occupied by obstacles?
+A: This is called "junction" zone, and it's original feature of SoD. Jnction zones are filled with obstacles, leaving only narrow pasages between zone exits. These junctions only appear in a handful of random map templates.
+
+Q: l would love a setting for map gen to make player position corner of the map :p
+A: Player zone placement depends on map template. If player's starting zone has 3 or more connections, it will be in the middle of the random edge of the map. If there are 2 or less connections - in a random corner.

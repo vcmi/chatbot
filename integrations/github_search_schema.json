@@ -1,0 +1,123 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+      "title": "GitHub Issues API",
+      "version": "1.0"
+    },
+    "servers": [
+      {
+        "url": "https://api.github.com"
+      }
+    ],
+    "paths": {
+      "/repos/{owner}/{repo}/issues": {
+        "post": {
+          "operationId": "createGitIssue",
+          "summary": "Create an issue",
+          "parameters": [
+            {
+              "name": "owner",
+              "in": "path",
+              "required": true,
+              "schema": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "repo",
+              "in": "path",
+              "required": true,
+              "schema": {
+                "type": "string"
+              }
+            }
+          ],
+          "requestBody": {
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/NewIssue"
+                }
+              }
+            },
+            "required": true
+          },
+          "responses": {
+            "201": {
+              "description": "Issue created successfully"
+            }
+          }
+        },
+        "get": {
+          "operationId": "searchGitIssues",
+          "summary": "Search issues in a repository",
+          "parameters": [
+            {
+              "name": "q",
+              "in": "query",
+              "description": "Query string to search for issues",
+              "required": true,
+              "schema": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "sort",
+              "in": "query",
+              "description": "The sort field. Can be comments, created, or updated.",
+              "schema": {
+                "type": "string"
+              }
+            },
+            {
+              "name": "order",
+              "in": "query",
+              "description": "The sort order if sort parameter is provided. One of asc or desc.",
+              "schema": {
+                "type": "string"
+              }
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Search results matching criteria"
+            }
+          }
+        }
+      }
+    },
+    "components": {
+      "schemas": {
+        "NewIssue": {
+          "type": "object",
+          "required": [
+            "title"
+          ],
+          "properties": {
+            "title": {
+              "type": "string"
+            },
+            "body": {
+              "type": "string"
+            },
+            "assignees": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "milestone": {
+              "type": "integer"
+            },
+            "labels": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  

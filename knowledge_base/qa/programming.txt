@@ -1,0 +1,25 @@
+Q: I'm reading the code for a few days and I've observed that a lot of files and classes had a prefix like 'C', 'E', 'I', 'CG'. A few examples: "CMusichandler.cpp", "ECreatureAnimType", "IMainVideoPlayer". For what they stand for?
+A: Class, Enumeration, Interface. Although now we don't use 'C' prefix for new classes.
+'CG' prefix was used for classes that represent map objects. This prefix is not used for new classes either.
+
+Q: Is there any specific cmake flag to force launcher to be compiled with qt 5 or 6? I have both qt5 and qt6 installed on my linux and wanted to test some stuff, but I'm not sure with which version it compiles with by default and how can I enforce it to be compiled with the other
+A: You can select which version of Qt you want using CMAKE_PREFIX_PATH variable
+
+Q: we dont support videos in other formats, like mp4?
+A: mp4 might actually work. We use ffmpeg which supports pretty much anything you can throw on it. However our prebuilt libraries (Windows/mingw, Mac, mobiles) have minimalistic ffmpeg with many formats disabled, e.g. no h264 / h265.
+
+Q: what is the port/protocol used for multiplayer in vcmi?
+A: Incoming TCP connections are handled on port 3030 (For direct connection, without lobby). VCMI lobby in 1.5 uses port 3031, in 1.4 - 5002. However if you use lobby then vcmi only needs to establish outgoing connections, so there's no need for port forwarding.
+
+Q: I look at github/actions page if I want to try some playtesting, and I still can't tell which ones are the ones worth testing.
+A: Here's how our daly builds are organized:
+- 'develop' builds are for future 1.6 release. However at the moment they only contain some early work for 1.6, and very few changes visible to players
+- 'beta' are for future 1.5.X release. When a change is merged (added) to 1.5.X Github will trigger action that will create new beta build with this change
+- You might also see 'master' builds if you search long enough. Those are actual 'public builds' that will be used as a release.
+
+Rest of builds are 'pull requests'. Developers take existing version, make some changes and open 'pull request' with their changes.
+So, for example the version you've tested technically consists from a single change: vcmi will now show "1.5.3" whenever it shows game version.
+However, since we use current beta version as base (which already got some new changes since release), what you've tested is actually all changes made to 'beta' since 1.5.2 release plus recent changes to game version.
+
+- If you want to test next update (1.5.3 at the moment) grab latest 'beta' build from Actions.
+- If you want to test some specific change (see Pull Requests tab on Github) you can grab build from this pull request. You can find link to it from pull request page.

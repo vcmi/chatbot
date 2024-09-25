@@ -1,0 +1,209 @@
+Q: Is there somewhere some kind of roadmap for the project? Interested to see where its going and planned features.
+A: Not really. Long-term plans don't work for open-source projects like this. No one maintains up-to-date task list and no one can assure any proposed feature  will hold in the future. People implement what they want, whenever they have time. I you're curious, you may want to check issues and commits on our Github on your own: https://github.com/vcmi/vcmi
+
+Q: Is vcmi allowed in iOS App Store now? 
+A: Unfortunatelly not, it would require the team to pay 100 USD yearly for a developer's license.
+Q: I started playing yesterday on Android and everything works fine but there is no music.
+A: Check folder Android\data\is.xyz.vcmi\files\vcmi-data\Mp3. It should contain all files from Homm3. Note that in recent Android versions this folder is only accessible from PC via USB.
+
+Q: How can I modify gameConfig.json on Android?
+A: This is not directly possible. This file is part of installed .apk and is not editable. You can however make tiny mod with such change. This mod can then be placed on your device in Android\data\is.xyz.vcmi\files\vcmi-data\Mods directory.
+
+Q: How can I add a new map on Android? PC just copy it to the MAPS folder. But how do you do it on mobile?
+A: The same way, just copy it to maps folder via PC or by file manager, and put maps in android/data/is.xyz.vcmi/files/vcmi-data/maps.
+
+Q: how can I copy map downloaded from map4heroes to vcmi in Android? Should the map function normally, or I have to convert it?
+A: Map will function normally, just copy it to Maps folder.
+
+Q: Hi, i have encountered a problem on Android. I don't know if this problem was seen before (or if it's a intended feature), but since version 1.4.1/1.4.2 (i don't remember exactly) there's a green line when the battle round ends. I think it's a bug because i haven't seen it on older vcmi versions.
+A: Intended, as indication of turn end. On a next turn you can for example cast spell again, and creatures restore their retaliations.
+
+Q: How to play LAN on Android?
+A: New game -> Multiplayer -> Host game (3rd button from top)
+Look up your lan IP address: 
+Android -> Settings app -> Go to Wi-Fi settings -> Search for "IP Address" field
+
+Guests need to join via:
+New game -> Multiplayer -> Join game (4th button from top)
+Then they should enter your IP address in connection prompt.
+
+Make sure that all of you use same VCMI version and same set of mods
+
+Q: How do I upload android logs?
+A: Logs are stored in android/data/is.xyz.vcmi/files/vcmi-data/cache folder
+Q: What are the weather effects in VCMI?
+A: There are absolutely no weather effects in VCMI mechanics, or any other original Heroes of Might & Magic games.
+
+Q: Is it possible that the Grail disappears when a hero get killed when holding it?
+A: Yes. That's how it originally works in H3, and how it should work in VCMI.
+
+Q: How many Griffins are there in a Conservatory?
+A: Griffin Conservatory follows typical guard distribution of other banks, with 5 stacks of equal size. One of the stack in bottom-left corner has 50% chance to be upgraded. The exact size is randomized as in the following table:
+30% chance for 5 x 10 = 50 Griffins, reward: 1 Angel
+30% chance for 5 x 20 = 100 Griffins, reward: 2 Angels
+30% chance for 5 x 30 = 150 Griffins, reward: 3 Angels
+10% chance for 5 x 40 = 200 Griffins, reward: 4 Angels
+
+Q: Ja bym z chęcią zobaczył możliwość dodawania czarów, które zadają obrażenia co turę
+A: Czar nakłada bonus ENCHANTED, a ten z każdym początkiem tury nakłada na dotkniętą jednostkę zadający obrażenia czar.
+
+Q: Czy ktoś wie, o jaką maksymalnie wartość można obniżyć przeciwnikowi statystyki ataku i/lub obrony?
+A: Do zera. Przykładowo, robi to umiejętność Boskiego Anubianina (Divine Anubian) z Pawilonu (20% na zbicie ataku przeciwnika do 0).
+
+Q: Is wog lite available with the graphics changes and just tier 3 upgrades via vcmi or do i need to do it via era 3 launcher?
+A: There are some parts of wog ported, and they are all contained in submods. Just install the WoG mod through the Launcher and disable parts of it that you don't like.
+Please don't mix VCMI installation with any type of ERA or HoTA mods, it's best to keep every platform in a separate directory with its own Heroes 3 installment.
+
+Q: When will VCMI add Factory?
+A: Currently Factory town from HoTA is not ported, as it requires brand new abilities and features not uet supported by VCMI engine. Factory port is planned for VCMI 1.6.0.
+
+Q: For the question I wanted to know if I can play with level 8 creature form WoG? I tried playing WoG and I do load in and play with a commander, but I notice the normal setting for WoG is missing?
+A: WoG port has implemented only a few features. You can play with 8th level creatures submod. In such case, these creatures can be hired only in external dwellings (not town) or can be upgraded from 7th to  level with Magic Wand artifact.
+
+Q: How does the battlefield obstacle's blockedTile works? I'd like to fix wasteland obstacles.*
+A:
+If obstacle is marked as'absolute', then blockedTiles is simply list of blocked tile indexes, as in the following spreadhseet:
+
+https://github.com/vcmi/vcmi/blob/develop/docs/developers/BattleField.png
+
+For small (non-absolute) obstacles, blockedTiles is list of tiles relative to bottom-left corner of an obstacle. For example:
+
+```
+"blockedTiles" :  [1, 2, -15],
+```
+
+will result in something like this:
+
+```
+   x
+o x x
+
+```
+
+where o = bottom-left corner, (you can use '0' to block this tile), two x in a row are 1 & 2, and -15 means that tile in row above.
+
+Q: Does VCMI have campaign editor?
+A: Hero transfer between campaign scenarios does exist, but there is no "VCMI campaign editor" yet. Campaigns can be created from several scenarios via additional header.json file, refer to online docs for details of Campaign Format.
+
+Q: I'd like to create translation, how do I do this?
+A: Translations generally use 1 file with language defined in itsname, e.g. polish.json. There is no English translation file - default English strings are defined in place, e.g. in config of object that uses this string.
+
+Q: I'm reading the code for a few days and I've observed that a lot of files and classes had a prefix like 'C', 'E', 'I', 'CG'. A few examples: "CMusichandler.cpp", "ECreatureAnimType", "IMainVideoPlayer". For what they stand for?
+A: Class, Enumeration, Interface. Although now we don't use 'C' prefix for new classes.
+'CG' prefix was used for classes that represent map objects. This prefix is not used for new classes either.
+
+Q: Is there any specific cmake flag to force launcher to be compiled with qt 5 or 6? I have both qt5 and qt6 installed on my linux and wanted to test some stuff, but I'm not sure with which version it compiles with by default and how can I enforce it to be compiled with the other
+A: You can select which version of Qt you want using CMAKE_PREFIX_PATH variable
+
+Q: we dont support videos in other formats, like mp4?
+A: mp4 might actually work. We use ffmpeg which supports pretty much anything you can throw on it. However our prebuilt libraries (Windows/mingw, Mac, mobiles) have minimalistic ffmpeg with many formats disabled, e.g. no h264 / h265.
+
+Q: what is the port/protocol used for multiplayer in vcmi?
+A: Incoming TCP connections are handled on port 3030 (For direct connection, without lobby). VCMI lobby in 1.5 uses port 3031, in 1.4 - 5002. However if you use lobby then vcmi only needs to establish outgoing connections, so there's no need for port forwarding.
+
+Q: I look at github/actions page if I want to try some playtesting, and I still can't tell which ones are the ones worth testing.
+A: Here's how our daly builds are organized:
+- 'develop' builds are for future 1.6 release. However at the moment they only contain some early work for 1.6, and very few changes visible to players
+- 'beta' are for future 1.5.X release. When a change is merged (added) to 1.5.X Github will trigger action that will create new beta build with this change
+- You might also see 'master' builds if you search long enough. Those are actual 'public builds' that will be used as a release.
+
+Rest of builds are 'pull requests'. Developers take existing version, make some changes and open 'pull request' with their changes.
+So, for example the version you've tested technically consists from a single change: vcmi will now show "1.5.3" whenever it shows game version.
+However, since we use current beta version as base (which already got some new changes since release), what you've tested is actually all changes made to 'beta' since 1.5.2 release plus recent changes to game version.
+
+- If you want to test next update (1.5.3 at the moment) grab latest 'beta' build from Actions.
+- If you want to test some specific change (see Pull Requests tab on Github) you can grab build from this pull request. You can find link to it from pull request page.
+
+Q: What is maximum best map bro?
+A: Random map template: Coldshadow's Fantasy. Settings: G + Underground.
+
+Q: Why is half of the random map occupied by obstacles?
+A: This is called "junction" zone, and it's original feature of SoD. Jnction zones are filled with obstacles, leaving only narrow pasages between zone exits. These junctions only appear in a handful of random map templates.
+
+Q: l would love a setting for map gen to make player position corner of the map :p
+A: Player zone placement depends on map template. If player's starting zone has 3 or more connections, it will be in the middle of the random edge of the map. If there are 2 or less connections - in a random corner.
+
+
+Q: How can I add map for hota mod in vcmi ?
+A: Just paste map to main Maps folder and enable HotA mod. Game will find it.
+
+Q: Can I play the game with the Steam files?
+A: No. VCMI does not supports "HD Edition" from Steam.
+You need to own Heroes 3 Shadow of Death or Complete. For example one from gog.com.
+
+Q: I made a basic map in the original editor, but when I tried to open it in the VCMI map editor, this error message pop up: "Failed to find object of type 214::-1".
+A: Type 214, that should be ID for 'hero placeholder'. Delete it and try again.
+
+Q: Can I need help downloading core files.please someone send me link in PM.
+A: You can buy the game cheaply from Good Old Games: https://www.gog.com/game/heroes_of_might_and_magic_3_complete_edition
+
+Q: im trying to set up vcmi on ubuntu. i have no idea what im doin
+A: - Install vcmi using Flatpak or PPA (version available in Ubuntu by default is way outdated).
+- Get either H3 offline installer from gog.com or files from already installed game (e.g. via Windows) on your system.
+- Start VCMI Launcher, once asked - point it to either gog.com installer or to directory with installed game.
+
+
+Q: Sprites and textures in the standard HD+ Horn of the Abyss game look a bit more crisp and sharper than in the VCMI implementation. I'm running VCMI on Debian, whereas my HD+ HotA is running on Wine. Is this blurry rendering of the sprites/textures normal in VCMI?
+A: If you're playing in fullscreen or using interface scaling then this might be possible. Right now VCMI uses primitive upscaling algorithm.
+
+Q: It seems that VCMI uses a different type of font for most UI elements.
+A: VCMI uses font that is part of Heroes 3 data files. Hota replaces that font with another one. Unfortunately their font is broken on non-English locales so our port of hota mod does not have that font.
+
+Q: How to move on with this weird centaur monthly spawn, it blocked my path.
+A: It is known issue in OH3 that creatures randomly spawning on monthly events completely block some maps. In VCMI you can avoid that by disabling special weeks. Set "allowRandomSpecialWeeks" in gameConfig.json to false.
+
+Q: When waterwalking and got popups from map maker, the hero got freezed at middle of water, cannot move or doing anything.
+A: This is actually bug in OH3 - water walk would trigger events placed by map maker on water. Fixed in VCMI for 1.4.
+
+Q: Does VCMI support scripting?
+A: No, VCMI does not offer any scripts yet. A long time ago there were some attempts at adding support for ERM and Lua, but they were not finished and are not usable. The team would like to add script support sometime in the future, however there are no specific plans at the moment.
+
+Q: Why are all fights auto-battled?
+A: Quick combat is default in options. HD Mod made it default, so we did too. Just turn it off via in-game options.
+
+Q: Is it normal that I don't see giant map size?
+A: Yes, if you ommited UI enchancements. Install vcmi-extras from Mods section.
+
+Q: Is VCMI compatible with Heroes Chronicles?
+A: At the moment - no.
+
+Q: how do I update vcmi while keeping my saved games?
+A: You can't. If you started map on some VCMI version then you should finish it on same version before update.
+
+Q: Where does artifact appear when i type vcmiartifacts?
+A: In currently selected hero's equipment. If you have town selected on adventure map it won't work.
+
+Q: Guys, is it possible to edit vsgm1 save game file? I have been playing the AB camping, got to the map "maker of sorrow", beaten the enemy, but can't find the artifacts. I have played the map from the beginning many times, and lost nerves. I wonder if there is a way to edit a save game file (vsgm1) in order to give the hero necessary artifacts and just get over with it.
+A: As for save editing - not really. You can use cheats, for example `vcmiartifacts armageddonsBlade` to avoid blocking issue, but game saves are not editable.
+
+Q: How to attack with magogs on ground? It was 'g' in original.
+A: You cannot. It is a hota feature not yet implemented in VCMI.
+
+Q: , I was searching all over the place for tips on how to continue a multiplay game by loading a save — but with no luck. can you please point me to any guidance?
+A: You should:
+- Create new room
+- Switch "new game" to "load game" toggle below
+- Wait for your friend to join your room
+- Start the game
+This should bring you to "load game" screen in-game where you can select your save.
+
+Q: Is there a way to minimize a "full screen classic" window on Windows using just the keyboard? I've just seen screen go black instead of minimizing game.
+A: Usual approach is alt-tabbing into different app rather than minimizing the game. By default borderless fullscreen is recommended though, especially when using interface scaling.
+
+Q: Can I set a default catapult for a Hero class? I want to make a custom catapult for a certain Hero.
+A: You cannot, because hero class syntax doesn't include war machine entry. Having catapult is hardcoded for every hero.
+
+Q: OMG Map zooming? I'm old and blind. How can I set that up?
+A: Simply use use mouse wheel for zooming in and out.
+
+Q: Is there an option to have the ressource display aligned to the left as in original?
+A: It is not an original setup, it's a feature of HD Mod. In OH3 resource display takes entire width of the screen. In any case - there's no such option. Aligning resource bar to right was easier to do, so we went with this approach.
+
+Q: Is there a way to change the creature abilities back to just being a single line description, rather than a grid?
+A: No, VCMI dropped the old creature window layout as it was not effective in first place, and insufficient for displaying all available game mechanics.
+
+Q: How to activate cheats on Android VCMI?
+A: Tap on status bar (brown panel at the bottom). This should activate on-screen keyboard.
+
+Q: Just installed HOTA and WOG on Android seem to be working. But not seeing new campaigns on either. Are HOTA or WOG campaigns available on mobile? Is factory available? 
+A: HoTA campaigns are not supported yet, but are planned. WoG campaigns are not supported and most likely will never be, as they require complex ERM scripts which VCMI does not recreate.

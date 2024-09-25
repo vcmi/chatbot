@@ -1,0 +1,5 @@
+Q: Is there somewhere some kind of roadmap for the project? Interested to see where its going and planned features.
+A: Not really. Long-term plans don't work for open-source projects like this. No one maintains up-to-date task list and no one can assure any proposed feature  will hold in the future. People implement what they want, whenever they have time. I you're curious, you may want to check issues and commits on our Github on your own: https://github.com/vcmi/vcmi
+
+Q: Is vcmi allowed in iOS App Store now? 
+A: Unfortunatelly not, it would require the team to pay 100 USD yearly for a developer's license.

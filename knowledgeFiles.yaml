@@ -1,0 +1,10 @@
+knowledge_base:
+  - example_entities.md
+  - faq.txt
+  - strategija.txt
+  - polish:
+      - Lista dla laików hirkowych.txt
+  - schemas.json
+  - source_docs.md
+  - source_config.json
+  - source_mods.json

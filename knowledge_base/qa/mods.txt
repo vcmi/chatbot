@@ -1,0 +1,43 @@
+Q: Ja bym z chęcią zobaczył możliwość dodawania czarów, które zadają obrażenia co turę
+A: Czar nakłada bonus ENCHANTED, a ten z każdym początkiem tury nakłada na dotkniętą jednostkę zadający obrażenia czar.
+
+Q: Czy ktoś wie, o jaką maksymalnie wartość można obniżyć przeciwnikowi statystyki ataku i/lub obrony?
+A: Do zera. Przykładowo, robi to umiejętność Boskiego Anubianina (Divine Anubian) z Pawilonu (20% na zbicie ataku przeciwnika do 0).
+
+Q: Is wog lite available with the graphics changes and just tier 3 upgrades via vcmi or do i need to do it via era 3 launcher?
+A: There are some parts of wog ported, and they are all contained in submods. Just install the WoG mod through the Launcher and disable parts of it that you don't like.
+Please don't mix VCMI installation with any type of ERA or HoTA mods, it's best to keep every platform in a separate directory with its own Heroes 3 installment.
+
+Q: When will VCMI add Factory?
+A: Currently Factory town from HoTA is not ported, as it requires brand new abilities and features not uet supported by VCMI engine. Factory port is planned for VCMI 1.6.0.
+
+Q: For the question I wanted to know if I can play with level 8 creature form WoG? I tried playing WoG and I do load in and play with a commander, but I notice the normal setting for WoG is missing?
+A: WoG port has implemented only a few features. You can play with 8th level creatures submod. In such case, these creatures can be hired only in external dwellings (not town) or can be upgraded from 7th to  level with Magic Wand artifact.
+
+Q: How does the battlefield obstacle's blockedTile works? I'd like to fix wasteland obstacles.*
+A:
+If obstacle is marked as'absolute', then blockedTiles is simply list of blocked tile indexes, as in the following spreadhseet:
+
+https://github.com/vcmi/vcmi/blob/develop/docs/developers/BattleField.png
+
+For small (non-absolute) obstacles, blockedTiles is list of tiles relative to bottom-left corner of an obstacle. For example:
+
+```
+"blockedTiles" :  [1, 2, -15],
+```
+
+will result in something like this:
+
+```
+   x
+o x x
+
+```
+
+where o = bottom-left corner, (you can use '0' to block this tile), two x in a row are 1 & 2, and -15 means that tile in row above.
+
+Q: Does VCMI have campaign editor?
+A: Hero transfer between campaign scenarios does exist, but there is no "VCMI campaign editor" yet. Campaigns can be created from several scenarios via additional header.json file, refer to online docs for details of Campaign Format.
+
+Q: I'd like to create translation, how do I do this?
+A: Translations generally use 1 file with language defined in itsname, e.g. polish.json. There is no English translation file - default English strings are defined in place, e.g. in config of object that uses this string.

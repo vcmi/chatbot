@@ -1,0 +1,20 @@
+
+
+Q: How can I add map for hota mod in vcmi ?
+A: Just paste map to main Maps folder and enable HotA mod. Game will find it.
+
+Q: Can I play the game with the Steam files?
+A: No. VCMI does not supports "HD Edition" from Steam.
+You need to own Heroes 3 Shadow of Death or Complete. For example one from gog.com.
+
+Q: I made a basic map in the original editor, but when I tried to open it in the VCMI map editor, this error message pop up: "Failed to find object of type 214::-1".
+A: Type 214, that should be ID for 'hero placeholder'. Delete it and try again.
+
+Q: Can I need help downloading core files.please someone send me link in PM.
+A: You can buy the game cheaply from Good Old Games: https://www.gog.com/game/heroes_of_might_and_magic_3_complete_edition
+
+Q: im trying to set up vcmi on ubuntu. i have no idea what im doin
+A: - Install vcmi using Flatpak or PPA (version available in Ubuntu by default is way outdated).
+- Get either H3 offline installer from gog.com or files from already installed game (e.g. via Windows) on your system.
+- Start VCMI Launcher, once asked - point it to either gog.com installer or to directory with installed game.
+

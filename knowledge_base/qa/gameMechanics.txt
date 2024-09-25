@@ -1,0 +1,12 @@
+Q: What are the weather effects in VCMI?
+A: There are absolutely no weather effects in VCMI mechanics, or any other original Heroes of Might & Magic games.
+
+Q: Is it possible that the Grail disappears when a hero get killed when holding it?
+A: Yes. That's how it originally works in H3, and how it should work in VCMI.
+
+Q: How many Griffins are there in a Conservatory?
+A: Griffin Conservatory follows typical guard distribution of other banks, with 5 stacks of equal size. One of the stack in bottom-left corner has 50% chance to be upgraded. The exact size is randomized as in the following table:
+30% chance for 5 x 10 = 50 Griffins, reward: 1 Angel
+30% chance for 5 x 20 = 100 Griffins, reward: 2 Angels
+30% chance for 5 x 30 = 150 Griffins, reward: 3 Angels
+10% chance for 5 x 40 = 200 Griffins, reward: 4 Angels

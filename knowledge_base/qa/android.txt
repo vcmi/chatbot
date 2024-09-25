@@ -1,0 +1,28 @@
+Q: I started playing yesterday on Android and everything works fine but there is no music.
+A: Check folder Android\data\is.xyz.vcmi\files\vcmi-data\Mp3. It should contain all files from Homm3. Note that in recent Android versions this folder is only accessible from PC via USB.
+
+Q: How can I modify gameConfig.json on Android?
+A: This is not directly possible. This file is part of installed .apk and is not editable. You can however make tiny mod with such change. This mod can then be placed on your device in Android\data\is.xyz.vcmi\files\vcmi-data\Mods directory.
+
+Q: How can I add a new map on Android? PC just copy it to the MAPS folder. But how do you do it on mobile?
+A: The same way, just copy it to maps folder via PC or by file manager, and put maps in android/data/is.xyz.vcmi/files/vcmi-data/maps.
+
+Q: how can I copy map downloaded from map4heroes to vcmi in Android? Should the map function normally, or I have to convert it?
+A: Map will function normally, just copy it to Maps folder.
+
+Q: Hi, i have encountered a problem on Android. I don't know if this problem was seen before (or if it's a intended feature), but since version 1.4.1/1.4.2 (i don't remember exactly) there's a green line when the battle round ends. I think it's a bug because i haven't seen it on older vcmi versions.
+A: Intended, as indication of turn end. On a next turn you can for example cast spell again, and creatures restore their retaliations.
+
+Q: How to play LAN on Android?
+A: New game -> Multiplayer -> Host game (3rd button from top)
+Look up your lan IP address: 
+Android -> Settings app -> Go to Wi-Fi settings -> Search for "IP Address" field
+
+Guests need to join via:
+New game -> Multiplayer -> Join game (4th button from top)
+Then they should enter your IP address in connection prompt.
+
+Make sure that all of you use same VCMI version and same set of mods
+
+Q: How do I upload android logs?
+A: Logs are stored in android/data/is.xyz.vcmi/files/vcmi-data/cache folder

@@ -1,0 +1,164 @@
+﻿1.        Obiekty
+1. Konsa – konserwatorium gryfów – bank jednostek, w których za pokonanie gryfów dostajemy anioły
+2. Hivka – Rojowisko oślizgów – bank jednostek, w których za pokonanie ulepszonych oślizgów dostajemy wyweny
+3. Picket – Posterunek wilczych jeźdźców (?) – bank jednostek, w których za pokonanie wilczych jeźdźców dostajemy cyklopy
+4. Shop – Experimental Shop – bank jednostek (dodany w HotA), w których za pokonanie stalowych golemów (jednostka dodana w HotA) dostajemy giganty
+5. Kebab – obóz uchodźców – raz na tydzień można kupić losową jednostkę
+6. Impiarnia – Imp Cache/Skrytka chochlików – bank jednostek, w którym za pokonanie impów dostajemy gold i rtęć
+7. Kraśkarnia – Dwarven Treasure/Skarbiec krasnoludów – bank jednostek, w którym za pokonanie krasnoludów dostajemy gold i kryształy
+8. Meduziarnia – Siedlisko meduz – bank jednostek, w którym za pokonanie meduz dostajemy gold i siarkę
+9. Nagarnia – naga bank - bank jednostek, w którym za pokonanie nag dostajemy gold i klejnoty
+10. Cykloparnia – stockpile/kryjówka cyklopów – bank jednostek, w którym za pokonanie cyklopów dostajemy rtęć, kryształy, siarkę, klejnoty
+11. Topka – Smocza utopia - bank jednostek, w którym za pokonanie smoków dostajemy gold i artefakty
+________________
+
+
+2.      Jednostki
+1. Centy – Tier 1 Rampart – Centaury
+2. Grzesie – Tier 1 Tower – Gremliny
+3. Mięsne – Tier 7 Tower – Giganty
+4. Pimpki – Tier 1 Inferno – Chochlik/Chowaniec
+5. Małpy – Tier 2 Inferno – Gogi/Magogi
+6. Pity – Tier 5 Inferno – Pit lordzi/Czarci lordowie
+7. Frytki – Tier 6 Inferno – Ifryty
+8. Kochanieńkie/kochaniutkie – Tier 1 Necropolis – Szkielety
+9. Szmatki – Tier 3 Necropolis – Zjawy/Upiorne zjawy
+10. Ogórek – Tier 1 Dungeon - Troglodyci
+11. Oczka – Tier 3 Dungeon – Złe oczy/Beholdery
+12. Kiełbasy – Tier 6 Dungeon - Chimery
+13. Mariusze – Tier 6 Stronghold – Cyklopy
+14. Misie – Tier 7 Stronghold - Behemoty
+15. Lizaki – Tier 2 Fortress – Lizardmen (Reptiliony/Jaszczurkoludzie)
+16. Ważka/Mucha – Tier 3 Fortress – Serpent Fly/Oślizgi
+17. Krowy – Tier 5 Fortress - Gorgony
+18. Kaczka/Utka – Tier 6 Fortress – Wywerna
+19. Godlewskie – Tier3 Conflux – Żywiołaki wody
+20. Ziemniaki – Tier5 Conflux – Żywiołaki ziemi
+21. Psychole – Tier 6 Conflux – Żywiołaki magii
+22. Dzieci – Neutralne – Niziołek
+23. Wrzoski – Neutralne – Trolle
+24. Dałnosmoki – Neutralne – Czarodziejskie smoki
+Możliwe wszelkie zdrobnienia takie jak: kraśki – krasnoludy, minosie – minotaury, manty – mantykory itp.
+ 
+
+
+________________
+
+
+3.      Artefakty
+1. AOTD – „Aotede” – Zbroja przeklętego – artefakt składowy, nakładający podczas pierwszej tury Spowolnienie, osłabienie, klątwę, pecha na wrogie jednostki.
+2. AA – angelic Alliance – miecz anielskiego sojuszu - artefakt składowy, niweluje negatywne efekty mieszania wojsk z miast Bastion, Forteca, Twierdza i Zamek oraz rzuca na początku bitwy czar Modlitwa na poziomie mistrzowskim
+3. Pała – niszczycielska maczuga ogrów – zwiększa atak bohatera o 5
+4. Orzeszek – czaszkowy hełm – zwiększa więdze bohatera o 2
+5. Kirias – pancerz tytana – zwiększa moc bohatera o 10, ale zmniejsza wiedzę o 2
+6. Piszczele Zidane’a – Nagolenniki ze smoczych kości – zwiększa wiedzę i moc bohatera o 1
+7. Tabard - Płaszcz ze smoczych skrzydeł - zwiększa wiedzę i moc bohatera o 2
+8. Sojek/Soj – Miecz sprawiedliwości – zwiększa atak, obrone, moc i wiedzę bohatera o 5
+9. Czajnik – hełm boskich mocy - zwiększa atak, obrone, moc i wiedzę bohatera o 6
+10. Słoneczko/Logo Polsatu – znak odwagi/pendant of courage – zwiększa szczęście i morale bohatera o 3
+11. Koszulka juventusu – opończa przeciwstawienia - zwiększa umiejętność odporności bohatera o 10%.
+12. Sapagi – buty przyśpieszenia – zwiększa zasięg bohatera na lądzie o 400 punktów ruchu (w SODzie 600)
+13. Perczatki - rękawice jeźdźca - zwiększa zasięg bohatera na lądzie o 200 punktów ruchu (w sodzie 300)
+14. Zestaw Korzeniowskiego – Wspomniane wyżej sapagi + rekawice jeźdźca – dwa artefakty zwiększające ruch bohatera
+15. “Ten pierścień którego nigdy nie ma” – pierścień żywotności/ring of vitality – zwiększa wytrzymałość jednostek o 1 – pierścień do setu na życie, który bardzo ciężko znaleźć i zazwyczaj to jego brakuje do skompletowania setu.
+16. KP/KZ/KO/KW – Odpowiednio księga powietrza, ziemi, ognia, wody – uzupełniają księgę zaklęć o wszystkie czary odpowiedniej magii – wymawiane KP – „KaPe”, KZ – „KaZet” itp.
+17. Nogi/sukienka/klata/rece/głowa cygana – komponenty do setu legionisty – zwiększają przyrost jednostek
+18. Czerwona kulka – kula przeciwstawienia - Nie pozwala na używanie zaklęć na polu bitwy.
+19. Czarna kulka – kula osłabienia - jednostki odporne na magię tracą tę właściwość.
+20. Czapka Machbereta – kapelusz czarodzieja – pozwala podczas walki na rzucanie zaklęć 5 poziomu
+21. Nasior - naszyjnik, najczęściej naszyjnik boskiej mocy
+22. Browar/Beczka - beczka maga - artefakt składowy, odnawiający całą manę bohatera na koniec tury
+ 
+________________
+
+
+4.      Bohaterowie
+1. Walizka – Valeska
+2. Zakolak/Fantom/Ponton – Clancy
+3. Bogini – Daremyth
+4. Papiczken/FTS - Astral
+5. Wrzosy – Ayden
+6. Jurek – Clavius
+7. Damaboss – Damacon
+8. Szef – Alkin
+9. Anakin/Korwin/Onionek – Aenain
+10. Cielak – Ciele
+11. Żabcia – Labetha
+12. Żeglarz - Gelare
+13. Kasia – Cassiopeia
+14. Jeremiasz - Jeremy
+15. Evo/Wacek - Eovacius
+16. Szefowa - Anabel
+________________
+
+
+5.      Inne
+1. “trzy ka” „sześć ka” – 3k i 6k – określenie strażników, broniących przejścia do innej strefy o wartości odpowiednio 3000 i 6000. Używane też często jako określenie strefy za tym strażnikiem.
+2. “Dede” – DD – Dimension Door – Wrota Wymiarów – czar tieru 5, który pozwala teleportować bohatera
+3. “Tepe” – TP – Town Portal – Portal miejski – czar tieru 4, który pozwala teleportować się bohaterem do zamku
+4. “Split” - podział armii w celu bardziej efektywnego zdobywania surowców/miast
+5. “Farmienie” - ma dwa znaczenia. Jedno odnosi się do wykorzystywania bohaterów z umiejętnością nekromancja do wskrzeszania po każdej walce szkieletów i powiększania liczby szkieletów w armii. Drugie znaczenie odnosi się do wykorzystywania zdolności specjalnej Czarcich Lordów - wskrzeszanie demonów z poległych w walce jednostek.
+6. “Hirek 2k” - bohater, który pojawia się w karczmie który zaczyna z 2000 punktów ruchu (zdarza się tak, jeżeli ten bohater już wcześniej pojawił się na mapie przygody i został pokonany)
+7. “Seer”/”Quest” - artefakt na mapie, który można odnieść do chatki proroka w celu uzyskania nagrody. Seery są generowane tak, że artefakt generuje się dwie strefy oddalony od chatki proroka.
+8. “Break” - typowe dla szablonu Jebus Cross, Jebus King, MT_Firewalk nazewnictwo. Oznacza strażnika o wartości 45000 do przejścia do strefy środkowej/pustynii (w przypadku MT_Firewalka do strefy banków/pustynii/strefy smoczych utopii)
+
+
+
+
+
+
+
+________________
+
+
+Gildia - najważniejsze TP i DD, następnie Ressurect (wskrzeszenie). TP pozwala wrócić z armią do stref, które zająłeś, a nie miałeś szansy wyciągnąć z nich rzeczy które na nich są; pozwala na zabranie wojska w inne miejsce (np. po ataku na miasto przeciwnika na styk); pozwala wyciągać więcej rzeczy ze stref na zasadzie - szczur zrobi rzecz X, a następnie wróci do najbliższego miasta za pomocą TP (czy to z KZty, czy to nauczone przez scholara). DD najbardziej przydatne do ataków na przeciwnika, wyciąganie value z biomu zablokowane przez przeszkody/zablokowane przez ubytki w podziemiach.
+
+
+Co to są czary kontrolne/kontrola?
+Są to czary używane na mapie przygody, w uproszczeniu Town Portal - pozwala teleportować się do wybranego miasta bohaterem jeśli mamy magię ziemii na advanced przynajmniej, oraz Dimension Door - pozwala przeskakiwać przeszkody na mapie przygody oraz zwiększa zasięg ruchu bohatera, możemy skakać o 9 pól za mały koszt ruchu.
+
+Ile ma się DDków na turę?
+Zależy od rozmiaru mapy, na mapach XL+U bohater z ekspercką magią powietrza może użyć tego czaru 2 razy na turę, bez magii jeden raz.
+
+Ranking gildii pięciopoziomowych:
+T1: Rampart/Tower
+T2: Inferno/Necro
+T3: Dung
+T4: Flux
+
+Rampart ma największe szanse na DD, a atutem Towera jest możliwość postawienia biblioteki, która zwiększa liczbę czarów obecnych na każdym poziomie o 1.
+
+
+Szablony:
+-6lm10a - najpopularniejszy szablon XL+U, grany na średnich drogach. Gracze zaczynają na strefie z dwoma gwarantowanymi przejściami - do strefy 3k, zwanej “przejściówką”, z której mają dostęp do kilku innych stref, oraz do strefy 6k zwanej “treżakiem”, w którym może być, ale nie musi (szczególnie w przypadku gracza niebieskiego), kontynuacja do dalszych stref. Każdy gracz ma do siebie “przypisanych” dwóch AI - zazwyczaj jest w stanie się dostać do ich stref znacznie szybciej niż przeciwnik.
+AI przypisane do danego gracza:
+gracz czerwony - brązowy, seledynowy
+gracz niebieski - zielony, różowy.
+
+
+STZ / supertreżak - relikty są na glebie, duże value strefy, brak wejścią drogą, przeważnie trudne do wykorzystania bez DD
+przejściówka - strefa bez zamku, łącząca strefy z zamkami (treżaki) oraz strefy AI. Bardzo ważne źródło surowców, stąd przejściówki z teren z karą ruchu są bardzo niemile widziane u graczy.
+
+Na co zwrócić uwagę przy restartach na 6lm10a?
+Typowo jak na każdym innym szablonie szukasz highrolla - czyli czegoś co da Ci zdecydowanego ‘kopa’ już w pierwszych dniach rozgrywki. Najczęściej to konserwatorium, najlepiej małe. Czasami jakieś łatwo dostępne siedlisko, może puszka (ale to rzadko).
+Druga rzecz na skomplikowanych szablonach kontrolnych to dostęp do gildii - czyli chcesz mieć gdzie budować gildię poziomu piątego. Często to zamek Twojego najbliższego gracza AI brązowego/zielonego lub wioska za pierwszym strażnikiem 6k.
+Trzecia rzecz to bohater premium - na przykład Grindan, Labetha, albo generalnie pula bohaterów jakich udało się kupić w pierwszym dniu. Szukasz zazwyczaj dobrych magów z potencjałem na ziemię.
+No i masa innych obserwacji, chcemy mieć wystarczającą ilość złota, czasami dostęp do drewna może być kluczowy w pierwszych dniach, bo na przykład nie będziemy w stanie postawić elfów, ale to drobne rzeczy, które bardzo się nie różnią na poszczególnych szablonach.
+
+-Nostalgia - XL+U, jeden z niewielu który się gra na szybkich drogach. Każdy gracz ma 3 AI, przy licytacji gracze wybierają zamek AI na zmianę, zamki nie mogą się powtarzać. Niebieski wybiera AI jako pierwszy, co jest jednym z powodów dlaczego na tym szablonie kupuje się kolor niebieski, a nie czerwony. Od czego zależy wybór AI? Szukamy korzyści jakie mogą nam przynieść przejęte zamki graczy komputerowych. Do najlepszych bonusów zalicza się stajnie w Castlu oraz uniwersytet magiczny, na którym możemy kupić magię (ziemię i powietrze) w Confluxie. Dalej jest Dungeon z budynkiem do podwajania many i portalem do przyzywania kreatur z siedlisk. Dalej jest już dyskusyjnie, ale generalnie szukamy zamku bez kar ruchu i ewentualnie ze stajnią na mapie przygody. Popularny jest także stronghold ze względu na obiekty na mapie przygody, takie jak studnia do ruchu +1000, fontanna do podwojenia many, także stajnia i szkielety lub te wozy, które dają za darmo pomniejsze artefakty.
+
+-h3dm1 - najpopularniejszy mirror “kontrolny”, od startowej strefy są przejścia do 3 miast z wybudowanymi fortami. Z każdej z bocznych stref 2 przejścia do treżaków. Z treżaków jest przejście na stronę przeciwnika, a dokładniej do jednego z treżaków połączonych z innym miastem z fortem, niż to które prowadzi do treżaka z którego przybyliśmy. Szablon jest wymagający nie tylko pod względem technicznym, ale też psychicznym, od początku gry mniej więcej wiesz co robi przeciwnik i trwa wyścig, od początku duża presja i ewentualność szybkiego spotkania sprawiają, że to szablon bardzo angażujący psychicznie, prawdopodobnie najbardziej, bo nie ma takiej fazy jak na powiedzmy 6lm10a, gdzie sobie grasz spokojnie pierwsze 10-14 dni bez stresu o atak przecwinika.
+wiodące taktyki:
+-stabilna gra z dużą troską o ekonomię i gildię
+-natychmiastowy rush w stronę przeciwnika (tu przewagę ma czerwony kolor) -gra pod jak najwyższe tempo i potencjalny snowball (to przeważnie oglądamy u topowych graczy)
+- idealny scenariusz to rozwój w pierwszym tygodniu, zajmowanie bocznych stref i ustawienie sie po bank (najlepiej konse) pod 121, a następnie puszczenie aniołów w różnych kierunkach w celu ekspansji - czyli zdobywania zamków
+
+-MT_FW - bogaty mirror z dużym tempem. Strefa startowa zawiera dwa siedliska t6 i jedno t7 i puszki z doświadczeniem więc armia natywna odgrywa na początku dużą rolę. Zwyczajowo zaczynamy grę od przejęcia strefy golda(conflux), potem w zależności od priorytetów dążymy do szybkiego breaku do strefy banków(inferno) lub do strefy AI (często będącego tą samą frakcją czyli można przejąć dodatkowe siedlisko t6/t7). Późna gra z wykorzystaniem pustyni gdzie można znaleźć słabo bronione relikty i strefą smoczych utopii więc o ile zawodnicy nie spotkają się szybko możliwe jest zebranie bardzo dużej armii z wykorzystaniem dyplomacji.
+
+
+Czym się różnią szablony ‘skomplikowane’ od Jebusa?
+Nie mamy podanego na tacy schematu do rozegrania. Na jebusie startujemy na jednej bogatej strefie, zbieramy co się da jak najszybciej i biegniemy do super bogatej strefy środkowej, innych opcji nie ma. Zazwyczaj wygrywa ten, który szybciej zajął środek tym samym odciął przeciwnika od rozwoju. Na szablonach skomplikowanych dużo częściej dochodzi do tak zwanego late game’u. Czyli fazy gry, gdzie szachujemy się z przeciwnikiem, przejmujemy sobie miasta, podkradamy rzeczy ze stref nieprzypisanych do nikogo. W tym celu niezbędne jest posiadania magii ziemi i czaru Town Portal oraz magii powietrze i czaru Dimension Door. Tutaj w przeciwieństwie do jebusa jesteśmy w stanie wygrać z naszym przeciwnikiem, który ma dużo większą armię sprytem i możliwością poruszania się po mapie. Ponadto od początku gry nie jesteśmy ograniczeni strukturą szablonu jak na jebusie, nie jesteśmy zamknięci w jednej strefie, mamy więcej dróg rozwoju ze stosunkowo słabymi strażnikami, których pokonujemy w pierwszych dniach. Szablony takie wymagają dużo więcej strategicznego planowania i myślenia, warto też w pierwszych turach gromadzić jak najwięcej timera, by później wykorzystać go w sytuacjach krytycznych lub gdy mamy bardzo dobrze rozwiniętych herosów, do planowania ataków i tur. 
+
+Wytłumaczyć jak otwiera się grafy - w folderze z grą RMG Template Editor - plik - otwórz - nazwa szablonu. Jak czytać grafy? Kwadraciki to strefy, a linie to połączenia. Rodzaje połączeń - wymuszone/niepewne/szerokie(bez guarda)/bez drogi… Strefy z zamkami lub bez, co zmienia liczba mieczyków na strefie, ewentualnie przedziały wartości, czyli na przykład ograniczenie do 20k value zabezpiecza przed generowaniem się reliktów na danej strefie.
+
+3k/6k/12.5k itp - wartość AI value dla strażników między strefami. Strażnicy między strefami zawsze mają “2 mieczyki”. Dla odniesienia na Jebusie jest tylko 1 strażnik między strefą o wartości 45k - strażnik na pustynię. Im więcej ta wartość wynosi tym trudniejszy strażnik.

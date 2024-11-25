@@ -41,3 +41,9 @@ A: Hero transfer between campaign scenarios does exist, but there is no "VCMI ca
 
 Q: I'd like to create translation, how do I do this?
 A: Translations generally use 1 file with language defined in itsname, e.g. polish.json. There is no English translation file - default English strings are defined in place, e.g. in config of object that uses this string.
+
+Q: How do I learn how to add my own towns/characters/mods
+A: You can find some info for modding on the VCMI site (VCMI.eu). Also try to look how it works in other mods. There is also #modding channel on discord where people are actively chatting. You may also ask specific questions here and the chat might know the answer.
+
+Q: Are there mods that add H1 or H2 towns into the game?
+A: For H2 towns there are some, but they aren't in Launcher (Succession Wars port is WIP and three other H2 towns are in archive repo and aren't the best towns in VCMI). For H1 towns there aren't any mods.

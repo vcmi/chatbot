@@ -10,11 +10,30 @@ You need to own Heroes 3 Shadow of Death or Complete. For example one from gog.c
 Q: I made a basic map in the original editor, but when I tried to open it in the VCMI map editor, this error message pop up: "Failed to find object of type 214::-1".
 A: Type 214, that should be ID for 'hero placeholder'. Delete it and try again.
 
-Q: Can I need help downloading core files.please someone send me link in PM.
+Q: I need help downloading core files.please someone send me link in PM.
 A: You can buy the game cheaply from Good Old Games: https://www.gog.com/game/heroes_of_might_and_magic_3_complete_edition
 
 Q: im trying to set up vcmi on ubuntu. i have no idea what im doin
 A: - Install vcmi using Flatpak or PPA (version available in Ubuntu by default is way outdated).
 - Get either H3 offline installer from gog.com or files from already installed game (e.g. via Windows) on your system.
 - Start VCMI Launcher, once asked - point it to either gog.com installer or to directory with installed game.
+
+Q: I just installed the latest version on my new PC and installed some regular mods, but now I start with thousands of special resources and the town growth is enormous. I haven't found any mods that would cause this, anyone has any idea what to do?
+A: Disable Arena submod from Warzyw templates.
+
+Q: I've had vcmi downloaded on my ipad for about a week and everything was working correctly, but today out of the blue I couldn't open the app. So I decided to delete and redownload it but now I can't download it even by using the exact same steps that worked for me a week ago (installing the ipa with sideloadly). Any clues how to fix this?
+A: Your free developer certificate expired probably, can only suggest to read sideloadly FAQ or ask them for support. But I'd rather recommend using AltStore - it can handle the 7 days limitation automatically
+
+Q: In single scenario game crashes all time during the enemy turn. Do you have any solutions?
+A: Try using "Windows-Alternate" installer from Github release. You can find it under this link: https://github.com/vcmi/vcmi/releases/
+
+Q: Is there a way to unlock all the campaigns via setting or something
+A: In Launcher, go to "Help" tab, locate game config directory. In that config directory there should be persistentStorage.json. Open it with text editor and add "unlockAllCampaigns" : true entry
+
+Q: how to install vcmi on my iPhone and iPad ?
+A: try using this guide: https://github.com/OriginMD/vcmi/blob/patch-1/docs/players/Installation_iOS.md
+
+Q: installation from aur - vcmi-git (day bulid 1.6) and vcmi 1.5.7 conflict with each other. it installs to the same place (same path) I don't know how to make a path in the installation of couple -S vcmi-git 1.6 and vcmi 1.5.7. how to fix this? 
+A: Probably not possible ATM, unless Arch has something for such cases.
+
 

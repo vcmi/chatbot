@@ -12,7 +12,7 @@ Q: what is the port/protocol used for multiplayer in vcmi?
 A: Incoming TCP connections are handled on port 3030 (For direct connection, without lobby). VCMI lobby in 1.5 uses port 3031, in 1.4 - 5002. However if you use lobby then vcmi only needs to establish outgoing connections, so there's no need for port forwarding.
 
 Q: I look at github/actions page if I want to try some playtesting, and I still can't tell which ones are the ones worth testing.
-A: Here's how our daly builds are organized:
+A: Here's how our daily builds are organized:
 - 'develop' builds are for future 1.6 release. However at the moment they only contain some early work for 1.6, and very few changes visible to players
 - 'beta' are for future 1.5.X release. When a change is merged (added) to 1.5.X Github will trigger action that will create new beta build with this change
 - You might also see 'master' builds if you search long enough. Those are actual 'public builds' that will be used as a release.

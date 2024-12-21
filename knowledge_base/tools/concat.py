@@ -1,5 +1,6 @@
 import os
 import json
+import shutil
 from json_helper import JsonHelper as helper
 from dotenv import load_dotenv
 
@@ -89,8 +90,8 @@ def concatenate_txt_files(directory_path, output_file_path):
 						output_file.write("\n")
 
 # Concatenate all the content of knowledge_base/qa folder to knowledge_base/qa.txt
-qa_path = "knowledge_base/qa"
-qa_output = "knowledge_base/qa.txt"
+qa_path = "../qa"
+qa_output = "../qa.txt"
 
 concatenate_txt_files(qa_path, qa_output)
 
@@ -101,6 +102,8 @@ docs_path = os.path.join(source_path, 'docs')
 docs_file = "../source_docs.md"
 
 concatenate_markdown_files(docs_path, docs_file)
+
+shutil.copyfile(os.path.join(source_path, 'ChangeLog.md'), "../changelog.md")
 
 # Combine all the config/ json files into a single one
 config_path = os.path.join(source_path, 'config')

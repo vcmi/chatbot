@@ -1,6 +1,7 @@
 knowledge_base:
   - example_entities.md
   - faq.txt
+  - changelog.md
   - strategija.txt
   - polish:
       - Lista dla laików hirkowych.txt

@@ -15,4 +15,4 @@ The list of actual knowledge base files is in `knowledgeFiles.yaml`. They need t
 
 2. Run script to extract knowledge base:
 
-`python knowledge_base/tools/concat.py`
+`cd knowledge_base/tools && python concat.py`

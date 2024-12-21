@@ -12,7 +12,7 @@ A: This is not directly possible. This file is part of installed .apk and is not
 Q: How can I add a new map on Android? PC just copy it to the MAPS folder. But how do you do it on mobile?
 A: The same way, just copy it to maps folder via PC or by file manager, and put maps in android/data/is.xyz.vcmi/files/vcmi-data/maps.
 
-Q: how can I copy map downloaded from maps4heroes to VCMI in Android? Should the map function normally, or I have to convert it?
+Q: how can I copy map downloaded from map4heroes to vcmi in Android? Should the map function normally, or I have to convert it?
 A: Map will function normally, just copy it to Maps folder.
 
 Q: Hi, i have encountered a problem on Android. I don't know if this problem was seen before (or if it's a intended feature), but since version 1.4.1/1.4.2 (i don't remember exactly) there's a green line when the battle round ends. I think it's a bug because i haven't seen it on older vcmi versions.
@@ -30,8 +30,7 @@ Then they should enter your IP address in connection prompt.
 Make sure that all of you use same VCMI version and same set of mods
 
 Q: How do I upload android logs?
-A: Logs are stored in android/data/is.xyz.vcmi/files/vcmi-data/cache folder.
-
+A: Logs are stored in android/data/is.xyz.vcmi/files/vcmi-data/cache folder
 Q: What are the weather effects in VCMI?
 A: There are absolutely no weather effects in VCMI mechanics, or any other original Heroes of Might & Magic games.
 
@@ -52,8 +51,11 @@ Q: Czy ktoś wie, o jaką maksymalnie wartość można obniżyć przeciwnikowi s
 A: Do zera. Przykładowo, robi to umiejętność Boskiego Anubianina (Divine Anubian) z Pawilonu (20% na zbicie ataku przeciwnika do 0).
 
 Q: Is wog lite available with the graphics changes and just tier 3 upgrades via vcmi or do i need to do it via era 3 launcher?
-A: There are some parts of WoG ported, and they are all contained in submods. Just install the WoG mod through the Launcher and disable parts of it that you don't like.
-Please don't mix VCMI installation with any type of ERA or HotA mods, it's best to keep every platform in a separate directory with its own Heroes 3 installment.
+A: There are some parts of wog ported, and they are all contained in submods. Just install the WoG mod through the Launcher and disable parts of it that you don't like.
+Please don't mix VCMI installation with any type of ERA or HoTA mods, it's best to keep every platform in a separate directory with its own Heroes 3 installment.
+
+Q: When will VCMI add Factory?
+A: Currently Factory town from HoTA is not ported, as it requires brand new abilities and features not uet supported by VCMI engine. Factory port is planned for VCMI 1.6.0.
 
 Q: For the question I wanted to know if I can play with level 8 creature form WoG? I tried playing WoG and I do load in and play with a commander, but I notice the normal setting for WoG is missing?
 A: WoG port has implemented only a few features. You can play with 8th level creatures submod. In such case, these creatures can be hired only in external dwellings (not town) or can be upgraded from 7th to  level with Magic Wand artifact.
@@ -86,6 +88,12 @@ A: Hero transfer between campaign scenarios does exist, but there is no "VCMI ca
 Q: I'd like to create translation, how do I do this?
 A: Translations generally use 1 file with language defined in itsname, e.g. polish.json. There is no English translation file - default English strings are defined in place, e.g. in config of object that uses this string.
 
+Q: How do I learn how to add my own towns/characters/mods
+A: You can find some info for modding on the VCMI site (VCMI.eu). Also try to look how it works in other mods. There is also #modding channel on discord where people are actively chatting. You may also ask specific questions here and the chat might know the answer.
+
+Q: Are there mods that add H1 or H2 towns into the game?
+A: For H2 towns there are some, but they aren't in Launcher (Succession Wars port is WIP and three other H2 towns are in archive repo and aren't the best towns in VCMI). For H1 towns there aren't any mods.
+
 Q: I'm reading the code for a few days and I've observed that a lot of files and classes had a prefix like 'C', 'E', 'I', 'CG'. A few examples: "CMusichandler.cpp", "ECreatureAnimType", "IMainVideoPlayer". For what they stand for?
 A: Class, Enumeration, Interface. Although now we don't use 'C' prefix for new classes.
 'CG' prefix was used for classes that represent map objects. This prefix is not used for new classes either.
@@ -100,7 +108,7 @@ Q: what is the port/protocol used for multiplayer in vcmi?
 A: Incoming TCP connections are handled on port 3030 (For direct connection, without lobby). VCMI lobby in 1.5 uses port 3031, in 1.4 - 5002. However if you use lobby then vcmi only needs to establish outgoing connections, so there's no need for port forwarding.
 
 Q: I look at github/actions page if I want to try some playtesting, and I still can't tell which ones are the ones worth testing.
-A: Here's how our daly builds are organized:
+A: Here's how our daily builds are organized:
 - 'develop' builds are for future 1.6 release. However at the moment they only contain some early work for 1.6, and very few changes visible to players
 - 'beta' are for future 1.5.X release. When a change is merged (added) to 1.5.X Github will trigger action that will create new beta build with this change
 - You might also see 'master' builds if you search long enough. Those are actual 'public builds' that will be used as a release.
@@ -132,13 +140,32 @@ You need to own Heroes 3 Shadow of Death or Complete. For example one from gog.c
 Q: I made a basic map in the original editor, but when I tried to open it in the VCMI map editor, this error message pop up: "Failed to find object of type 214::-1".
 A: Type 214, that should be ID for 'hero placeholder'. Delete it and try again.
 
-Q: Can I need help downloading core files.please someone send me link in PM.
+Q: I need help downloading core files.please someone send me link in PM.
 A: You can buy the game cheaply from Good Old Games: https://www.gog.com/game/heroes_of_might_and_magic_3_complete_edition
 
 Q: im trying to set up vcmi on ubuntu. i have no idea what im doin
 A: - Install vcmi using Flatpak or PPA (version available in Ubuntu by default is way outdated).
 - Get either H3 offline installer from gog.com or files from already installed game (e.g. via Windows) on your system.
 - Start VCMI Launcher, once asked - point it to either gog.com installer or to directory with installed game.
+
+Q: I just installed the latest version on my new PC and installed some regular mods, but now I start with thousands of special resources and the town growth is enormous. I haven't found any mods that would cause this, anyone has any idea what to do?
+A: Disable Arena submod from Warzyw templates.
+
+Q: I've had vcmi downloaded on my ipad for about a week and everything was working correctly, but today out of the blue I couldn't open the app. So I decided to delete and redownload it but now I can't download it even by using the exact same steps that worked for me a week ago (installing the ipa with sideloadly). Any clues how to fix this?
+A: Your free developer certificate expired probably, can only suggest to read sideloadly FAQ or ask them for support. But I'd rather recommend using AltStore - it can handle the 7 days limitation automatically
+
+Q: In single scenario game crashes all time during the enemy turn. Do you have any solutions?
+A: Try using "Windows-Alternate" installer from Github release. You can find it under this link: https://github.com/vcmi/vcmi/releases/
+
+Q: Is there a way to unlock all the campaigns via setting or something
+A: In Launcher, go to "Help" tab, locate game config directory. In that config directory there should be persistentStorage.json. Open it with text editor and add "unlockAllCampaigns" : true entry
+
+Q: how to install vcmi on my iPhone and iPad ?
+A: try using this guide: https://github.com/OriginMD/vcmi/blob/patch-1/docs/players/Installation_iOS.md
+
+Q: installation from aur - vcmi-git (day bulid 1.6) and vcmi 1.5.7 conflict with each other. it installs to the same place (same path) I don't know how to make a path in the installation of couple -S vcmi-git 1.6 and vcmi 1.5.7. how to fix this? 
+A: Probably not possible ATM, unless Arch has something for such cases.
+
 
 
 Q: Sprites and textures in the standard HD+ Horn of the Abyss game look a bit more crisp and sharper than in the VCMI implementation. I'm running VCMI on Debian, whereas my HD+ HotA is running on Wine. Is this blurry rendering of the sprites/textures normal in VCMI?
@@ -163,7 +190,7 @@ Q: Is it normal that I don't see giant map size?
 A: Yes, if you ommited UI enchancements. Install vcmi-extras from Mods section.
 
 Q: Is VCMI compatible with Heroes Chronicles?
-A: At the moment - no. GoG Heroes Chronicles can be used in the 1.6 develop version.
+A: At the moment - no.
 
 Q: how do I update vcmi while keeping my saved games?
 A: You can't. If you started map on some VCMI version then you should finish it on same version before update.
@@ -175,9 +202,9 @@ Q: Guys, is it possible to edit vsgm1 save game file? I have been playing the AB
 A: As for save editing - not really. You can use cheats, for example `vcmiartifacts armageddonsBlade` to avoid blocking issue, but game saves are not editable.
 
 Q: How to attack with magogs on ground? It was 'g' in original.
-A: You cannot. It is a HotA feature not yet implemented in VCMI.
+A: You cannot. It is a hota feature not yet implemented in VCMI.
 
-Q: I was searching all over the place for tips on how to continue a multiplayer game by loading a save — but with no luck. can you please point me to any guidance?
+Q: , I was searching all over the place for tips on how to continue a multiplay game by loading a save — but with no luck. can you please point me to any guidance?
 A: You should:
 - Create new room
 - Switch "new game" to "load game" toggle below
@@ -192,16 +219,16 @@ Q: Can I set a default catapult for a Hero class? I want to make a custom catapu
 A: You cannot, because hero class syntax doesn't include war machine entry. Having catapult is hardcoded for every hero.
 
 Q: OMG Map zooming? I'm old and blind. How can I set that up?
-A: Simply use use mouse wheel for zooming in and out. On mobile devices the map can be zoomed via pinching.
+A: Simply use use mouse wheel for zooming in and out.
 
-Q: Is there an option to have the resource display aligned to the left as in original?
+Q: Is there an option to have the ressource display aligned to the left as in original?
 A: It is not an original setup, it's a feature of HD Mod. In OH3 resource display takes entire width of the screen. In any case - there's no such option. Aligning resource bar to right was easier to do, so we went with this approach.
 
 Q: Is there a way to change the creature abilities back to just being a single line description, rather than a grid?
 A: No, VCMI dropped the old creature window layout as it was not effective in first place, and insufficient for displaying all available game mechanics.
 
 Q: How to activate cheats on Android VCMI?
-A: Tap on status bar (brown panel at the bottom) or press Tab. This should activate on-screen keyboard on mobile devices.
+A: Tap on status bar (brown panel at the bottom). This should activate on-screen keyboard.
 
 Q: Just installed HOTA and WOG on Android seem to be working. But not seeing new campaigns on either. Are HOTA or WOG campaigns available on mobile? Is factory available? 
-A: HoTA campaigns are not fully supported yet, but are planned. WoG campaigns are not supported and most likely will never be, as they require complex ERM scripts which VCMI does not recreate.
+A: HoTA campaigns are not supported yet, but are planned. WoG campaigns are not supported and most likely will never be, as they require complex ERM scripts which VCMI does not recreate.

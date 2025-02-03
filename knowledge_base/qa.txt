@@ -60,7 +60,7 @@ A: Currently Factory town from HoTA is not ported, as it requires brand new abil
 Q: For the question I wanted to know if I can play with level 8 creature form WoG? I tried playing WoG and I do load in and play with a commander, but I notice the normal setting for WoG is missing?
 A: WoG port has implemented only a few features. You can play with 8th level creatures submod. In such case, these creatures can be hired only in external dwellings (not town) or can be upgraded from 7th to  level with Magic Wand artifact.
 
-Q: How does the battlefield obstacle's blockedTile works? I'd like to fix wasteland obstacles.*
+Q: How does the battlefield obstacle's blockedTile works? I'd like to fix wasteland obstacles.
 A:
 If obstacle is marked as'absolute', then blockedTiles is simply list of blocked tile indexes, as in the following spreadhseet:
 

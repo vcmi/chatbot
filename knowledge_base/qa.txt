@@ -232,3 +232,6 @@ A: Tap on status bar (brown panel at the bottom). This should activate on-screen
 
 Q: Just installed HOTA and WOG on Android seem to be working. But not seeing new campaigns on either. Are HOTA or WOG campaigns available on mobile? Is factory available? 
 A: HoTA campaigns are not supported yet, but are planned. WoG campaigns are not supported and most likely will never be, as they require complex ERM scripts which VCMI does not recreate.
+
+Q: What is the current Status of HoTa 1.7.2 on VCMI?
+A: About 1% done. Many defs are not jsonized at all.
